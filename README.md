@@ -7,7 +7,7 @@ David Sweet
 
 An agent lives in a 3D environment.  It is restricted to move along the ground and within four walls, which form a square.  Scattered on the ground are yellow and blue bananas.
 
-The agent senses the state of the environment along 37 dimensions which include a measurement of the agent's angular velocity and measurements of the distances to other objects in the environment along [https://github.com/Unity-Technologies/ml-agents/issues/1134][https://github.com/Unity-Technologies/ml-agents/releases].
+The agent senses the state of the environment along 37 dimensions which include a measurement of the agent's angular velocity and measurements of the distances to other objects in the environment along rays emanating from the agent [https://github.com/Unity-Technologies/ml-agents/issues/1134][https://github.com/Unity-Technologies/ml-agents/releases].
 
 The agent may act on the environment in one of four ways: Walk forward, walk backward, turn left, or turn right.
 
@@ -17,7 +17,7 @@ An episode lasts for 300 time steps.
 
 ## Solution
 
-The environment will be considered solved when, in the course of simultaneously learning and acting, the agent has received a average reward of (at least) +13 over 100 consecutive episodes.
+The environment will be considered solved when, in the course of simultaneously learning and acting, the agent has received an average reward of (at least) +13 over 100 consecutive episodes.
 
 ## Running the code
 
